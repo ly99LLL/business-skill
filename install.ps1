@@ -50,7 +50,7 @@ if (Test-Path "$GlobalSkillsDir\SKILL.md") {
     Write-Host "`n💡 快速测试:" -ForegroundColor Cyan
     Write-Host "   /business-skill 帮我分析：在公园里开一个移动咖啡书店" -ForegroundColor White
     Write-Host "`n📚 更多用法请查看:" -ForegroundColor Cyan
-    Write-Host "   $GlobalSkillsDir\..\..\..\Desktop\business-skill\README.md" -ForegroundColor White
+    Write-Host "   $SourceDir\README.md" -ForegroundColor White
 } else {
     Write-Host "`n❌ 安装失败，请检查权限" -ForegroundColor Red
     exit 1

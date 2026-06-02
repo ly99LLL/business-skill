@@ -1,14 +1,38 @@
 # OS files
 .DS_Store
 Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
 
 # Editor
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
 
 # Temp
 *.tmp
 *.log
+*.bak
+*.orig
+
+# Node.js (just in case)
+node_modules/
+package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
 
 # Baidu Netdisk
 *.fcb.baiduyun.p.downloading
+
+# Claude Code
+.claude/skills/*/
+!claude/skills/business-skill/
+
